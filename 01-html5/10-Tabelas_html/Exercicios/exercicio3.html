@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Mesclagem de cedulas</title>
+        <style>
+            table,
+            th,
+            td {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Exercício 1: Crie uma tabela com 3 linhas e 2 colunas. Preencha as células com qualquer conteúdo de sua escolha.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Coluna 1</th>
+                    <th>Coluna 2</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>Linha 1</td>
+                <td>Linha 1</td>
+            </tr>            
+            <tr>
+                <td>Linha 2</td>
+                <td>Linha 2</td>
+            </tr>            
+            <tr>
+                <td>Linha 3</td>
+                <td>Linha 3</td>
+            </tr>
+        </table>
+
+        <p>Exercício 2: Expanda a tabela criada no Exercício 1 para ter 5 linhas e 3 colunas. Adicione um cabeçalho à sua tabela usando a tag < th >. Os cabeçalhos devem representar “Nome”, “Idade” e “Cidade”.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Cidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nome 1</td>
+                    <td>Idade 1</td>
+                    <td>Cidade 1</td>
+                </tr>
+                <tr>
+                    <td>Nome 2</td>
+                    <td>Idade 2</td>
+                    <td>Cidade 2</td>
+                </tr>
+                <tr>
+                    <td>Nome 3</td>
+                    <td>Idade 3</td>
+                    <td>Cidade 3</td>
+                </tr>
+                <tr>
+                    <td>Nome 4</td>
+                    <td>Idade 4</td>
+                    <td>Cidade 4</td>
+                </tr>
+                <tr>
+                    <td>Nome 5</td>
+                    <td>Idade 5</td>
+                    <td>Cidade 5</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+
+        <p>Exercício 3: Crie uma tabela que tenha uma mistura de diferentes tipos de conteúdo em suas células. Por exemplo, uma das células pode conter texto, outra pode conter uma imagem (use uma imagem de placeholder, como “https://via.placeholder.com/150“) e outra pode conter um link para um site de sua escolha.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Imagem</th>
+                    <th>Link</th>
+                    <th>Descricao</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="https://via.placeholder.com/150">
+                    </td>
+                    <td><a href="www.google.com">Google</a></td>
+                    <td>Imagem aleatoria e link para o Google</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+
+
+
+
+        <p>Exercício 4: Pratique a diferença entre < th > e < td >. Crie uma tabela com 4 linhas e 3 colunas. A primeira linha deve ser um cabeçalho com as células sendo < th > e as outras linhas devem ser dados com células <td>. Os cabeçalhos devem representar “Produto”, “Preço” e “Quantidade em estoque”.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Preco</th>
+                    <th>Quantidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Produto 1</td>
+                    <td>Preco 1</td>
+                    <td>Quantidade 1</td>
+                </tr>
+                <tr>
+                    <td>Produto 2</td>
+                    <td>Preco 2</td>
+                    <td>Quantidade 2</td>
+                </tr>
+                <tr>
+                    <td>Produto 3</td>
+                    <td>Preco 3</td>
+                    <td>Quantidade 3</td>
+                </tr>
+            </tbody>
+        </table>
+
+        
+
+
+
+
+        <p>Exercício 5: Desafio: Crie uma tabela complexa que inclui outras tabelas em algumas das suas células. Uma sugestão poderia ser uma tabela que representa um cardápio de restaurante, onde cada prato (linha) tem uma descrição (célula) que é outra tabela, detalhando os ingredientes do prato. Certifique-se de incluir pelo menos 2 pratos.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Prato</th>
+                    <th>Descricao</th>
+                    <th>Ingredientes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>strogonoff</td>
+                    <td>Comida russa</td>
+                    <td><table><tr>
+                        <td>arroz</td>
+                        <td>Molho de tomate</td>
+                        <td>Frango</td>
+                        <td>Creme de leite</td>
+                        <td>Cebola</td>
+                        <td>Alho</td>
+                    </tr></table></td>
+                </tr>
+                <tr>
+                    <td>Pao com mortadela</td>
+                    <td>Comida Brasileira</td>
+                    <td><table>
+                        <tr>
+                            <td>Pao</td>
+                            <td>Mortadela</td>
+                            <td>Queijo</td>
+                        </tr>
+                    </table></td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

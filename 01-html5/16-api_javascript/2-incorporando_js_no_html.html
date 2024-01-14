@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Incorporando Javascript no HTML</title>
+    <script src="./alerta.js"></script>
+</head>
+
+<body>
+    <button onclick="alert('Ola, mundo!! inline')">Inline</button>
+    <button onclick="saudacao()">Internal</button>
+
+    <button onclick="chamadaExterna()">Externo</button>
+    
+
+    <script>
+        function saudacao(){
+            alert('Ola mundo!! Internal');
+        }
+    </script>
+</body>
+
+</html>

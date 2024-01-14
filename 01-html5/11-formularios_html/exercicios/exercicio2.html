@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercicios Campos de entrada (texto, senha, checkbox, radio, botões)</title>
+    </head>
+
+    <body>
+        <h1>Exercício 1: Crie um formulário de inscrição com campos para nome (texto), sobrenome (texto), senha (senha), gênero (botões de opção) e um botão de envio (submit).</h1>
+        <form action="" method="post">
+            <label for="name">Nome:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="sobrenome">Sobrenome:</label><br>
+            <input type="text" id="sobrenome" name="sobrenome"><br>
+            <label for="senha">senha:</label><br>
+            <input type="password" id="senha" name="senha"><br>
+            <label for="male">Masculino</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Feminino</label>
+            <input type="radio" id="female" name="gender" value="female"><br>
+            <input type="submit" value="Envio">
+
+        </form>
+<br>
+        <h1>Exercício 2: Crie um formulário de feedback com campos para nome (texto), e-mail (texto), comentários (textarea) e uma opção para o usuário optar por receber atualizações por e-mail (caixa de seleção). Inclua também um botão de envio.</h1>
+            <form action="" method="post">
+                <label for="nname">Nome:</label><br>
+                <input id="nname" type="text" name="nname"><br>
+
+                <label for="eemail">E-mail:</label><br>
+                <input id="eemail" type="text" name="eemail"><br>
+
+                <label for="ccomentario">Comentários :</label><br>
+                <textarea id="ccomentario" name="ccomentario"></textarea><br>
+
+                <label for="nns">Aceita receber atualizações</label>
+                <input type="checkbox" id="nns" name="nns"><br>
+
+                <input type="submit" value="Enviar">
+
+
+            </form>
+        <h1>Exercício 3: Crie um formulário de inscrição para um evento com campos para nome (texto), e-mail (texto), opções para escolher a refeição (caixas de seleção – vegetariano, vegano, sem glúten) e um botão de envio.</h1>
+        <form action="" method="post">
+            <label for="nnname">Nome:</label> <br>
+            <input id="nnname" type="text" name="nnname"> <br>
+
+            <label for="eeemail">email:</label> <br>
+            <input id="eeemail" type="text" name="eeemail"> <br>
+            <p>tipo de refeicao</p>
+
+            <label for="vegetariano">vegetariano</label>
+            <input type="radio" id="vegetariano" name="foodtype">
+            <label for="vegano">Vegano</label>
+            <input type="radio" id="vegano" name="foodtype">
+            <label for="semGlutem">Sem Glutem</label>
+            <input type="radio" id="semGlutem" name="foodtype"><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+        
+        
+        <h1>Exercício 4: Crie um formulário de pesquisa de opinião. Pergunte ao usuário sobre sua opinião em um determinado tópico (usando o textarea). Dê-lhes a opção de classificar o tópico em uma escala de 1 a 5 (usando botões de opção). Inclua também um botão de envio</h1>
+        <form action="" method="post">
+            <label for="opiniao">Informe a sua opiniao</label><br>
+            <textarea id="opiniao" name="opiniao">
+                
+            </textarea><br>
+            <p>Avalie</p>
+            <label for="nota1">Nota 1</label>
+            <input type="radio" id="nota1" name="nota">
+            <label for="nota2">Nota 2</label>
+            <input type="radio" id="nota2" name="nota">
+            <label for="nota3">Nota 3</label>
+            <input type="radio" id="nota3" name="nota">
+            <label for="nota4">Nota 4</label>
+            <input type="radio" id="nota4" name="nota">
+            <label for="nota5">Nota 5</label>
+            <input type="radio" id="nota5" name="nota"><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+        
+        
+        <h1>Exercício 5: Crie um formulário de pedido de produto. Inclua campos para nome (texto), endereço de entrega (textarea), método de pagamento (lista suspensa com opções para cartão de crédito, débito, PayPal, etc.), e um botão de envio.</h1>
+        <form action="" method="post">
+            <label for="xnome">Nome:</label><br>
+            <input type="text" id="xnome" name="xnome"><br>
+            <label for="xendereco">Endereço:</label><br>
+            <textarea name="xendereco" id="xendereco"></textarea><br>
+            <p>Metodo de pagamento:</p>
+            <label for="credito">Credito</label>
+            <input type="radio" name="metpag" id="credito">
+            <label for="debito">Debito</label>
+            <input type="radio" name="metpag" id="debito">
+            <label for="pix">PIX</label>
+            <input type="radio" name="metpag" id="pix"><br>
+            <input type="submit" value="Enviar">
+
+
+        </form>
+        
+        
+        <h1>
+            Exercício 6 (Desafio): Crie um formulário completo de inscrição para uma conferência. 
+            Este formulário deve pedir ao usuário o 
+            nome (texto), 
+            e-mail (texto), 
+            empresa (texto), 
+            cargo (texto), 
+            e uma opção para escolher entre diferentes workshops para participar (caixas de seleção). 
+            Deve também ter um campo para comentários ou solicitações especiais (textarea), e um botão de envio.</h1>
+
+            <form action="" method="post">
+                <label for="inome">Nome:</label><br>
+                <input type="text" id="inome" name="inome"><br>
+
+                <label for="imail">E-mail:</label><br>
+                <input type="text" id="imail" name="imail"><br>   
+
+                <label for="iempresa">Empresa:</label><br>
+                <input type="text" id="iempresa" name="iempresa"><br>    
+
+                <label for="icargo">Cargo:</label><br>
+                <input type="text" id="icargo" name="icargo"><br>
+
+                <p>Qual workshops</p>
+                <label for="wks1">workshop 1</label>
+                <input type="checkbox" id="wks1">
+
+                <label for="wks2">workshop 2</label>
+                <input type="checkbox" id="wks2">
+
+                <label for="wks3">workshop 3</label>
+                <input type="checkbox" id="wks3">
+
+                <label for="wks4">workshop 4</label>
+                <input type="checkbox" id="wks4"><br><br><br>
+
+                <label for="comentariosx">Cometarios/Solicitacoes especiais</label><br>
+                <textarea name="cometariosx" id="comentariosx"></textarea><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+    </body>
+</html>

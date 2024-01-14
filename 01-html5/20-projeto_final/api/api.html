@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Projeto Final - API</title>
+</head>
+
+<body>
+    <nav>
+        <table>
+            <th><a href="../index.html">Home</a></th>
+            <th><a href="../cadastro/cadastro.html">Cadastro</a></th>
+            <th><a href="../multimedia/multimedia.html">Multimidia</a></th>
+            <th><a href="../tabelas/tableas.html">Tabelas</a></th>
+            <th><a href="../listaOrdenada/listaOrdenada.html">Listas Ordenadas</a></th>
+            <th><a href="../listaNaoOrdenada/listaNaoOrdenada.html">Listas Nao ordenadas</a></th>
+            <th><a href="../iframe/iframe.html">IFrame</a></th>
+            <th><a href="../api/api.html">API</a></th>
+        </table>
+    </nav>
+
+    <h1>API</h1>
+    <form id="meuCEP">
+        <label for="cep">CEP:</label>
+        <input type="text" id="cep" name="cep" required>
+        <p id="endereco"></p>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+    <script>
+        var x = document.getElementById("endereco");
+        document.getElementById("meuCEP").addEventListener('submit', function (e) {
+            e.preventDefault();
+            var cep = document.getElementById('cep').value
+            console.log(cep)
+            var url = 'https://viacep.com.br/ws/' + cep + '/json/'
+            console.log(url)
+            document.getElementById('meuCEP').action = url;
+
+            this.submit();
+        })
+
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Mesclagem de cedulas</title>
+
+        <style>
+            table,
+            th,
+            td {
+                border: 1px solid black;
+            }
+            table {
+                margin: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Mesclar linhas na vertical</p>
+        <table>
+            <tr>
+                <td>cedula 1</td>
+                <td>cedula 2</td>
+                <td>cedula 3</td>
+            </tr>
+            <tr>
+                <td colspan="2">Mesclar cedulas</td>
+                <td>cedula 3</td>
+            </tr>
+        </table>
+        <p>Mesclar linhas na horizontal</p>
+        <table>
+            <tr>
+                <td rowspan="2">cedula 1</td>
+                <td>cedula 2</td>
+            </tr>
+            <tr>
+                <td>cedula 3</td>
+            </tr>
+            <tr>
+                <td>cedula 3</td>
+            </tr>            <tr>
+                <td>cedula 3</td>
+            </tr>            <tr>
+                <td>cedula 3</td>
+            </tr>
+        </table>
+        <p>Tabela de linguagens de programacao</p>
+        <table>
+            <caption>Tabela de linguagens de programacao</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2">Linguagens</th>
+                    <th colspan="2">Caracteristicas</th>
+                    <th rowspan="2">Ano de lancamento</th>
+                </tr>
+                <tr>
+                    <th>Paradigma</th>
+                    <th>Tipagem</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>TypeScript</td>
+                    <td>Orientada a objeto</td>
+                    <td>Estatica/Forte</td>
+                    <td>2012</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">JavaScript</td>
+                    <td>Orientada a objeto</td>
+                    <td rowspan="2">Fraca/dinamic</td>
+                    <td rowspan="2">1995</td>
+                </tr>
+                <tr>
+                    <td>Even-driven</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

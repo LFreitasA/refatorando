@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Campos de entrada (texto, senha, checkbox, radio, botões)</title>
+    </head>
+
+    <body>
+        <form action="/url-para-enviar-dados-do-formulario" method="post">
+            <label for="username">nome de usuario:</label><br>
+            <input type="text" id="username" name="username"><br>
+            <br>
+            <label for="password">Senha</label><br>
+            <input type="password" id="password" name="password"><br><br>
+
+            <label for="male">Masculino</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Feminino</label>
+            <input type="radio" id="female" name="gender"><br><br>
+            
+            <label for="optin">Aceito receber newsletters</label>
+            <input type="checkbox" id="optin" name="optin" value="yes">
+            <br><br>
+
+            <label for="message">Mensagem:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            
+            <label for="country">Pais:</label><br>
+            <select id="country" name="country">
+                <option value="Brasil">Brasil</option>
+                <option value="USA">Estados unidos</option>
+                <option value="Canada">Canada</option>
+            </select><br>
+            <input type="submit" value="Login"><br> 
+        </form>
+    </body>
+</html>

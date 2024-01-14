@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Links para secoes na mesma pagina</title>
+
+        <style>
+            div{
+                height: 1000px;
+            }
+
+            #cabecalho{
+                background-color: bisque;
+            }
+            #recursos{
+                background-color: blueviolet;
+            }
+            #rodape{background-color: rgb(202, 255, 196);}
+        </style>
+    </head>
+    <body>
+        <p id="home"></p>
+        <a href="#cabecalho">Cabecalho </a>
+        <a href="#recursos">Recursos</a>
+        <a href="#rodape">rodape</a>
+
+
+        <div id="cabecalho">conteudo do cabecalho<a href="#home">Voltar</a></div>
+        <div id="recursos">conteudo do recursos<br> <a href="#home">Voltar</a></div>
+        
+        <div id="rodape">conteudo do rodape <a href="#home">Voltar</a><</div>
+    </body>
+</html>

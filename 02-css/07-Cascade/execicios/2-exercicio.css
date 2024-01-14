@@ -1,0 +1,11 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.importante{
+    color: red;
+    font-weight: bold;
+}
+
+.informativa{
+    color: blue;
+}

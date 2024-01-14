@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Criando tabelas</title>
+
+        <style>
+            table,
+            th,
+            td {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Tabela</h1>
+        <table>
+            <caption>Lista de compras detalhadas</caption>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantidade</th>
+                    <th>detalhes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>paes</td>
+                    <td>12</td>
+                    <td>
+                        <table>
+                            <tr>
+                                <th>tipo</td>
+                                <th>origem</td>
+                            </tr>
+                            <tr>
+                                <td>frances</td>
+                                <td>Brasil</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td>leite</td>
+                    <td>6</td>
+                    <td>
+                        <table>
+                            <tr>
+                                <th>tipo</td>
+                                <th>origem</td>
+                            </tr>
+                            <tr>
+                                <td>Integral</td>
+                                <td>Brasil</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+a:hover{
+    background-color: red;
+    color: yellow;
+    font-size: 33px;
+}
+
+a{
+    color: green;
+
+}
+
+.box{
+    background-color: pink;
+    height: 80px;
+    width: 80px;
+}
+
+.box:hover{
+    background-color: grey;
+}
+
+.box:empty:hover{
+    background-color: yellow;
+}
+
+.box:empty{
+    background-color: lime;
+}
+
+input[type="text"]:disabled{
+    background-color: #ccc;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>API de Geolocalizacao</title>
+</head>
+
+<body>
+    <p>Clique no botao para recuoperar a localizacao</p>
+    <button onclick="getLocation()">localizacao</button>
+
+    <p id="demo"></p>
+
+    <p id="clickNoBotao"></p>
+
+
+
+    <script>
+        var x = document.getElementById("demo");
+        var z = document.getElementById("clickNoBotao");
+
+        function getLocation() {
+            console.log("lick");
+            z.innerHTML="felicidades"
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            } else {
+                x.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+
+        function showPosition(position) {
+            x.innerHTML = "Latitude: " + position.coords.latitude +
+                "<br>Longitude: " + position.coords.longitude;
+        }
+    </script>
+    </script>
+</body>
+
+</html>

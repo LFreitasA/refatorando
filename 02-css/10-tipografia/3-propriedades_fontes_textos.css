@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: roboto, Arial, Helvetica, sans-serifs;
+    font-size: x-large ;
+}
+.oblique{
+    font-style: oblique;
+}
+.italic{
+    font-style: italic;
+}
+.fw100{
+    font-weight: 100;
+}
+.fw200{
+    font-weight: 200;
+}
+.fw300{
+    font-weight: 300;
+}
+.fw400{
+    font-weight: 400;
+}
+.fw500{
+    font-weight: 500;
+}
+.fw600{
+    font-weight: 600;
+}
+.fw700{
+    font-weight: 700;
+}
+.fw800{
+    font-weight: 800;
+}
+.fw900{
+    font-weight: 900;
+}
+.fwlig{
+    font-weight: lighter;
+}
+.fwbolder{
+    font-weight: bolder;   
+}
+.fs-xx-small{
+font-size: xx-small;
+}
+.fs-x-small{
+    font-size: x-small;
+}
+.fs-small{
+    font-size: small;
+}
+.fs-medium{
+    font-size: medium;
+}
+.fs-large{
+    font-size: large;
+}
+.fs-x-large{
+    font-size: x-large;
+}
+.fs-xx-large{
+    font-size: xx-large;
+}
+.fs-smaller{
+    font-size: smaller;
+}
+.fs-larger{
+    font-size: larger;
+}
+.fs-12px{
+    font-size: 12px;
+}
+.fs-08em{
+    font-size: 0.8em;
+}
+.fs-80x{
+    font-size: 80%;
+}
+
+.lh35{
+    line-height: 3,5;
+}
+.lh3em{
+    line-height: 3em;
+
+}
+.lh50x{
+    line-height: 50%;
+}
+
+.td-none{
+    text-decoration: none;
+}
+.td-line-through{
+    text-decoration: line-through red;
+}
+.td-overline{
+    text-decoration: overline green;
+}
+.td-underline{
+    text-decoration: underline red;
+}
+.td-wavy{
+    text-decoration: blink;
+    color: red;
+}
+
+.t-ac{
+    text-align: center;
+}
+
+.t-al{
+    text-align: left;
+}
+
+.t-ar{
+    text-align: right;
+}
+.t-ajustify{
+    text-align: justify;
+}
